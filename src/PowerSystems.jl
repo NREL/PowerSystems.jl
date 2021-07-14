@@ -139,6 +139,7 @@ export SteamTurbineGov1
 # Converter Exports
 export Converter
 export AverageConverter
+export REGCA1
 
 # DC Source Exports
 export DCSource
@@ -149,6 +150,7 @@ export ZeroOrderBESS
 export Filter
 export LCLFilter
 export LCFilter
+export DirectInjection
 
 # FrequencyEstimator Exports
 export FrequencyEstimator
@@ -163,12 +165,15 @@ export ReactivePowerDroop
 export ActivePowerDroop
 export ActivePowerPI
 export ReactivePowerPI
+export ActiveRenewableTypeAB
+export ReactiveRenewableTypeAB
 
 # InnerControl Export
 export InnerControl
 export CurrentControl
 export VoltageModeControl
 export CurrentModeControl
+export InnerREECB
 
 export Source
 export PeriodicVariableSource
